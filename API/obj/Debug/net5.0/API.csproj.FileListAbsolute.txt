@@ -54,3 +54,10 @@
 /Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Humanizer.dll
 /Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
