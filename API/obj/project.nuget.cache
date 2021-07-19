@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Bd80uGAYUZRVOaJb7ma4HftFJlOVB3rylu//PC1oAbEQCY8jrY+9fnJl//7mT/Cz96p8ejWxu5/GCtFNhn05ig==",
+  "dgSpecHash": "pKqaC3VKN1hU3Ec7zlKyDXzNBP7ywFtPloGAUwAk8KQF0Ciw74mFJ3eykM9qgCGTKWm4oW5y8vZXio+rQDwPgQ==",
   "success": true,
   "projectFilePath": "/Users/anismedini/Desktop/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
+    "/Users/anismedini/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/anismedini/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.8/microsoft.aspnetcore.authentication.jwtbearer.5.0.8.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -46,6 +48,7 @@
     "/Users/anismedini/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/system.identitymodel.tokens.jwt/6.11.1/system.identitymodel.tokens.jwt.6.11.1.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/anismedini/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
