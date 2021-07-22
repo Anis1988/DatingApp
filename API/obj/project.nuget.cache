@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "pKqaC3VKN1hU3Ec7zlKyDXzNBP7ywFtPloGAUwAk8KQF0Ciw74mFJ3eykM9qgCGTKWm4oW5y8vZXio+rQDwPgQ==",
+  "dgSpecHash": "/JmOHZ8Q3uVCadaPFp9ecpHg+bCyHIUTdmbe45CIn8B0112tcJNU0UuOgFa5veJzI+YWWo/veUMPlJz1u6HImA==",
   "success": true,
   "projectFilePath": "/Users/anismedini/Desktop/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/anismedini/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/Users/anismedini/.nuget/packages/cloudinarydotnet/1.15.2/cloudinarydotnet.1.15.2.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.8/microsoft.aspnetcore.authentication.jwtbearer.5.0.8.nupkg.sha512",
+    "/Users/anismedini/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "/Users/anismedini/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/Users/anismedini/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.data.sqlite.core/5.0.3/microsoft.data.sqlite.core.5.0.3.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
@@ -29,12 +33,14 @@
     "/Users/anismedini/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/anismedini/.nuget/packages/microsoft.extensions.webencoders/5.0.3/microsoft.extensions.webencoders.5.0.3.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.11.1/microsoft.identitymodel.jsonwebtokens.6.11.1.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.identitymodel.logging/6.11.1/microsoft.identitymodel.logging.6.11.1.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.identitymodel.protocols/6.7.1/microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.7.1/microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.identitymodel.tokens/6.11.1/microsoft.identitymodel.tokens.6.11.1.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/anismedini/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.4/sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4/sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
@@ -49,7 +55,8 @@
     "/Users/anismedini/.nuget/packages/system.identitymodel.tokens.jwt/6.11.1/system.identitymodel.tokens.jwt.6.11.1.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/Users/anismedini/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
-    "/Users/anismedini/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "/Users/anismedini/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "/Users/anismedini/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
