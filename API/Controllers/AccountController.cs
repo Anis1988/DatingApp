@@ -6,6 +6,7 @@ using API.Data;
 using API.DTOs;
 using API.Entities;
 using API.Interfaces;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,31 +16,34 @@ namespace API.Controllers
     {
         private readonly DataContext _context;
         private readonly ITokenService _tokenService;
+        private readonly IMapper _mapper;
 
-        public AccountController(DataContext context, ITokenService tokenService)
+        public AccountController(DataContext context, ITokenService tokenService,IMapper mapper)
         {
             _context = context;
             _tokenService = tokenService;
+            _mapper = mapper;
         }
       [HttpPost("register")]
       public async Task<ActionResult<UserDto>> Register(RegisterDto regiserDto)
       {
           if (await UserExists(regiserDto.Username)) return new BadRequestObjectResult("Username already exists");
+          var user  = _mapper.Map<AppUser>(regiserDto);
           using var hmac = new HMACSHA256();
 
-          var user = new AppUser
-          {
-              UserName = regiserDto.Username.ToLower(),
-              PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(regiserDto.Password)),
-              PasswordSalt = hmac.Key
-          };
+
+              user.UserName = regiserDto.Username.ToLower();
+              user.PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(regiserDto.Password));
+              user.PasswordSalt = hmac.Key;
+
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
             return new UserDto()
             {
                 Username = user.UserName,
-                Token = _tokenService.CreateToken(user)
+                Token = _tokenService.CreateToken(user),
+                KnownAs = user.KnownAs
             };
       }
 
@@ -66,7 +70,8 @@ namespace API.Controllers
             {
                 Username = user.UserName,
                 Token = _tokenService.CreateToken(user),
-                PhotoUrl = user.Photos.FirstOrDefault(x => x.IsMain)?.Url
+                PhotoUrl = user.Photos.FirstOrDefault(x => x.IsMain)?.Url,
+                KnownAs = user.KnownAs
             };;
       }
       private async Task<bool> UserExists(string username)
