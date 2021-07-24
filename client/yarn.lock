@@ -233,7 +233,7 @@
   "resolved" "https://registry.npmjs.org/@angular/compiler/-/compiler-9.0.0.tgz"
   "version" "9.0.0"
 
-"@angular/core@*", "@angular/core@^10.0.0 || ^11.0.0-0", "@angular/core@>=10.0.0-0", "@angular/core@>=7.0.0", "@angular/core@>=8.0.0", "@angular/core@~11.2.0", "@angular/core@11.2.14":
+"@angular/core@*", "@angular/core@^10.0.0 || ^11.0.0-0", "@angular/core@>=10.0.0", "@angular/core@>=10.0.0-0", "@angular/core@>=7.0.0", "@angular/core@>=8.0.0", "@angular/core@~11.2.0", "@angular/core@11.2.14":
   "integrity" "sha512-vpR4XqBGitk1Faph37CSpemwIYTmJ3pdIVNoHKP6jLonpWu+0azkchf0f7oD8/2ivj2F81opcIw0tcsy/D/5Vg=="
   "resolved" "https://registry.npmjs.org/@angular/core/-/core-11.2.14.tgz"
   "version" "11.2.14"
@@ -5694,6 +5694,13 @@
   "resolved" "https://registry.npmjs.org/ngx-bootstrap/-/ngx-bootstrap-6.2.0.tgz"
   "version" "6.2.0"
 
+"ngx-timeago@^2.0.0":
+  "integrity" "sha512-5kQZeTPCkegEcSooUu3W0BSOwvxEt1q6zjodwEOYoW/FxETC8Bk1zQF1QOPZLS+Nu3GLA+g1oPXMVBonM+CYQQ=="
+  "resolved" "https://registry.npmjs.org/ngx-timeago/-/ngx-timeago-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "tslib" "^2.0.0"
+
 "ngx-toastr@^13.0.0":
   "integrity" "sha512-UAzp7/xWK9IXA2LsOmhpaaIGCqscvJokoQpBNpAMrjEkDeSlFf8PWQAuQY795KW0mJb3qF9UG/s23nsXfMYKmg=="
   "resolved" "https://registry.npmjs.org/ngx-toastr/-/ngx-toastr-13.2.1.tgz"
@@ -7304,7 +7311,7 @@
   dependencies:
     "aproba" "^1.1.1"
 
-"rxjs@^6.5.3", "rxjs@^6.6.0", "rxjs@~6.6.0":
+"rxjs@^6.5.3", "rxjs@^6.6.0", "rxjs@>=6.6.0", "rxjs@~6.6.0":
   "integrity" "sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ=="
   "resolved" "https://registry.npmjs.org/rxjs/-/rxjs-6.6.7.tgz"
   "version" "6.6.7"
