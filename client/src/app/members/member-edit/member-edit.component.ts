@@ -13,9 +13,9 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./member-edit.component.css'],
 })
 export class MemberEditComponent implements OnInit {
-  @ViewChild('editForm') editForm!: NgForm;
-  member!: Member;
-  user!: User;
+  @ViewChild('editForm') editForm: NgForm;
+  member: Member;
+  user: User;
   @HostListener('window:beforeunload', ['$event']) unloadNotification(
     $event: any
   ) {

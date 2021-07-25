@@ -9,6 +9,7 @@ namespace API.Data
         public DataContext(DbContextOptions options) : base(options){}
         public DbSet<AppUser> Users { get; set; }
         public DbSet<UserLike> Likes { get; set; }
+        public DbSet<Message> Messages { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -31,6 +32,16 @@ namespace API.Data
                 .HasForeignKey(s =>s.LikedUserId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            // we are not going to set up the id because message has an Id to use as PK
+            builder.Entity<Message>()
+                .HasOne(u => u.Recipient)
+                .WithMany(m => m.MessagesReceived)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.Entity<Message>()
+                .HasOne(u => u.Sender)
+                .WithMany(m => m.MessagesSent)
+                .OnDelete(DeleteBehavior.Restrict);
 
 
         }
