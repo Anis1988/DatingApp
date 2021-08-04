@@ -18,7 +18,6 @@
 /Users/anismedini/Desktop/DatingApp/API/obj/Debug/net5.0/API.MvcApplicationPartsAssemblyInfo.cs
 /Users/anismedini/Desktop/DatingApp/API/obj/Debug/net5.0/API.MvcApplicationPartsAssemblyInfo.cache
 /Users/anismedini/Desktop/DatingApp/API/obj/Debug/net5.0/staticwebassets/API.StaticWebAssets.Manifest.cache
-/Users/anismedini/Desktop/DatingApp/API/obj/Debug/net5.0/staticwebassets/API.StaticWebAssets.xml
 /Users/anismedini/Desktop/DatingApp/API/obj/Debug/net5.0/scopedcss/bundle/API.styles.css
 /Users/anismedini/Desktop/DatingApp/API/obj/Debug/net5.0/API.RazorTargetAssemblyInfo.cache
 /Users/anismedini/Desktop/DatingApp/API/obj/Debug/net5.0/API.csproj.CopyComplete
@@ -67,3 +66,9 @@
 /Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/CloudinaryDotNet.dll
 /Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.Extensions.WebEncoders.dll
 /Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
+/Users/anismedini/Desktop/DatingApp/API/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/anismedini/Desktop/DatingApp/API/obj/Debug/net5.0/staticwebassets/API.StaticWebAssets.xml
