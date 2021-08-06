@@ -28,7 +28,7 @@ namespace API.Controllers
       [HttpPost("register")]
       public async Task<ActionResult<UserDto>> Register(RegisterDto regiserDto)
       {
-          if (await UserExists(regiserDto.Username)) return new BadRequestObjectResult("Username already exists");
+          if (await UserExists(regiserDto.Username)) return BadRequest("Username already exists");
           var user  = _mapper.Map<AppUser>(regiserDto);
             //  using var hmac = new HMACSHA256();
             //   user.PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(regiserDto.Password));
@@ -59,14 +59,14 @@ namespace API.Controllers
           var user = await _userManager.Users
           .Include(p => p.Photos)
           .SingleOrDefaultAsync(u => u.UserName == loginDto.Username.ToLower());
-          if (user == null) return  Unauthorized("Username is incorrect");
+          if (user == null) return Unauthorized("Username is incorrect");
         //   using var hmac = new HMACSHA256(user.PasswordSalt);
         //   var computedhash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginDto.Password));
         //   for (int i = 0; i < computedhash.Length; i++)
         //   {
         //       if (computedhash[i] != user.PasswordHash[i]){
         //           System.Console.WriteLine();
-        //       return new UnauthorizedObjectResult("Password is incorrect");
+        //       return Unauthorized("Password is incorrect");
         //       }
 
         //   }
