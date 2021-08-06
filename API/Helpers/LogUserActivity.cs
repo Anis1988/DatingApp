@@ -16,10 +16,10 @@ namespace API.Helpers
             // the claim thing works because of the Token !!!!!
             if(!resultContext.HttpContext.User.Identity.IsAuthenticated) return;
             var id = resultContext.HttpContext.User.GetUserId();
-            var repo = resultContext.HttpContext.RequestServices.GetService<IUserRepository>();
-            var user  = await repo.GetUserByIdAsync(id);
-            user.LastActive = DateTime.Now;
-            await repo.SaveAllAsync();
+            var unitOfWork = resultContext.HttpContext.RequestServices.GetService<IUnitOfWork>();
+            var user  = await unitOfWork.UserRepository.GetUserByIdAsync(id);
+            user.LastActive = DateTime.UtcNow;
+            await unitOfWork.Complete();
         }
     }
 }
